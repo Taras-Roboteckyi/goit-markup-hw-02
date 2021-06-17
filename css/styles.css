@@ -21,7 +21,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /*-----Шапка сайту------*/
@@ -30,6 +30,7 @@ body {
 .logo {
   font-family: var(--secondary-font);
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
 
@@ -97,3 +98,16 @@ body {
 }
 
 /*-- Секція"Особенности" --*/
+.features-list .features-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-list .features-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
