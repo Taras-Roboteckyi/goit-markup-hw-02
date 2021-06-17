@@ -1,0 +1,99 @@
+/*-----CSS змінні------*/
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+/*-----Скидування стилів------*/
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*-------------Body--------------*/
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+
+/*-----Шапка сайту------*/
+
+/*--Логотип сайту(Шапка сайту)--*/
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.logo .logo-item {
+  color: var(--accent-color);
+}
+
+/*-- Навігаційні посилання(Шапка сайту) */
+
+.menu .menu-ref,
+.contacts .contacts-ref {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.menu .menu-ref:hover,
+.menu .menu-ref:focus,
+.contacts .contacts-ref:hover,
+.contacts .contacts-ref:focus {
+  color: var(--accent-color);
+}
+
+.menu .menu-ref.current {
+  color: var(--accent-color);
+}
+
+.contacts .contacts-ref {
+  color: var(--secondary-text-color);
+}
+
+/*-- Унікальний контент сторінки --*/
+/*-- Головна секція сайту --*/
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.btn {
+  background: #2196f3;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-white-color);
+}
+
+/*-- Секція"Особенности" --*/
