@@ -27,7 +27,8 @@ body {
 /*-----Шапка сайту------*/
 
 /*--Логотип сайту(Шапка сайту)--*/
-.logo {
+.logo,
+.footer-logo {
   font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: 700;
@@ -37,7 +38,8 @@ body {
   color: #000000;
 }
 
-.logo .logo-item {
+.logo .logo-item,
+.footer-logo .logo-item {
   color: var(--accent-color);
 }
 
@@ -138,3 +140,31 @@ body {
 }
 
 /*------------Підвал------------*/
+.footer {
+  background-color: #2f303a;
+}
+
+/*-- Логотип сайту --*/
+
+.footer-logo {
+  color: var(--primary-white-color);
+}
+
+/*-------- Контакти --------*/
+.footer-list .footer-ref {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list .look {
+  color: var(--primary-white-color);
+}
+
+.footer-list .footer-ref:hover,
+.footer-list .footer-ref:focus {
+  color: var(--accent-color);
+}
