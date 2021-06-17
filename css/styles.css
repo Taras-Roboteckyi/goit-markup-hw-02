@@ -87,12 +87,13 @@ body {
 
 .btn {
   background: #2196f3;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: var(--primary-white-color);
 }
@@ -111,3 +112,29 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+/*-- Секція"Чем мы занимаемся" --*/
+.represent-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*--Наша команда--*/
+.team-title,
+.profection {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profection {
+  font-weight: inherit;
+  color: var(--secondary-text-color);
+}
+
+/*------------Підвал------------*/
