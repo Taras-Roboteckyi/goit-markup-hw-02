@@ -100,6 +100,11 @@ body {
   color: var(--primary-white-color);
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+}
+
 /*-- Секція"Особенности" --*/
 .features-list .features-title {
   font-weight: bold;
